@@ -4,7 +4,7 @@ Site statique (HTML/CSS/JS, sans dépendance) pour Premier Rang, soutien scolair
 des collégiens et lycéens des établissements français de Casablanca et Rabat.
 
 - `index.html` — contenu de la page
-- `styles.css` — charte (bleu nuit `#0F2147`, rose `#E8365D`, blanc)
+- `styles.css` — charte (fond bleu nuit `#0E1B3D`, blanc, rose `#EC3B62`)
 - `script.js` — menu mobile, onglets Collège/Lycée, formulaire de contact
 - `assets/` — emblème vectoriel (plume) et logo original
 

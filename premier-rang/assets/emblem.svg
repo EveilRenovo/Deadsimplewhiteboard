@@ -1,18 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 260" role="img" aria-label="Premier Rang">
-  <!-- Étoile du sommet -->
-  <g transform="translate(50 17)" fill="#E8365D">
-    <rect x="-10" y="-10" width="20" height="20"/>
-    <rect x="-10" y="-10" width="20" height="20" transform="rotate(45)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 520" role="img" aria-label="Premier Rang">
+  <!-- Étoile -->
+  <g transform="translate(58 22)" fill="#EC3B62">
+    <rect x="-11" y="-11" width="22" height="22"/>
+    <rect x="-11" y="-11" width="22" height="22" transform="rotate(45)"/>
   </g>
-  <!-- Plume -->
-  <path fill="#0F2147" d="M50 34 C45 58 32 88 12 130 L23 142 C25 180 30 218 32 252 L68 252 C70 218 75 180 77 142 L88 130 C68 88 55 58 50 34 Z"/>
-  <line x1="50" y1="36" x2="50" y2="138" stroke="#fff" stroke-width="2.4"/>
-  <g transform="translate(50 150)" fill="#fff">
-    <rect x="-8.5" y="-8.5" width="17" height="17"/>
-    <rect x="-8.5" y="-8.5" width="17" height="17" transform="rotate(45)"/>
-  </g>
-  <g fill="none" stroke="#fff" stroke-width="1.4">
-    <g transform="translate(24 133)"><rect x="-4.5" y="-4.5" width="9" height="9"/><rect x="-4.5" y="-4.5" width="9" height="9" transform="rotate(45)"/></g>
-    <g transform="translate(76 133)"><rect x="-4.5" y="-4.5" width="9" height="9"/><rect x="-4.5" y="-4.5" width="9" height="9" transform="rotate(45)"/></g>
-  </g>
+  <!-- Corps du stylo, biseauté -->
+  <path fill="#FFFFFF" d="M12 56 L18 52 L120 214 L120 512 L12 512 Z"/>
+  <!-- Ouverture ovale -->
+  <ellipse cx="56" cy="148" rx="15" ry="74" transform="rotate(-32 56 148)" fill="#0E1B3D"/>
+  <ellipse cx="56" cy="148" rx="10" ry="67" transform="rotate(-32 56 148)" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <!-- Bague -->
+  <rect x="12" y="430" width="108" height="4" fill="#0E1B3D"/>
 </svg>
