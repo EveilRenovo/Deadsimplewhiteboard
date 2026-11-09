@@ -227,13 +227,6 @@ h3 { font-size: 1.5rem; }
 .founder h3 { font-size: 1.6rem; margin-bottom: 1rem; }
 .founder p:last-child { color: var(--muted); margin: 0; font-size: .97rem; }
 
-.zenith-link {
-  margin-top: 3rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.2rem 2rem;
-  padding-top: 2rem; border-top: 1px solid var(--line);
-}
-.zenith-link p { margin: 0; color: var(--muted); max-width: 44em; }
-.zenith-label { font-family: var(--serif-sc); letter-spacing: .14em; color: var(--navy); margin-right: .6rem; }
-.footer-legal a { color: var(--white); }
 
 @media (max-width: 960px) {
   .story-grid, .founders { grid-template-columns: 1fr; gap: 2.4rem; }
