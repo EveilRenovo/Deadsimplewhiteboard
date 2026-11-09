@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 520" role="img" aria-label="Premier Rang">
   <!-- Étoile -->
-  <g transform="translate(58 22)" fill="#EC3B62">
+  <g transform="translate(58 22)" fill="#E8365D">
     <rect x="-11" y="-11" width="22" height="22"/>
     <rect x="-11" y="-11" width="22" height="22" transform="rotate(45)"/>
   </g>
   <!-- Corps du stylo, biseauté -->
-  <path fill="#FFFFFF" d="M12 56 L18 52 L120 214 L120 512 L12 512 Z"/>
+  <path fill="#0F2147" d="M12 56 L18 52 L120 214 L120 512 L12 512 Z"/>
   <!-- Ouverture ovale -->
-  <ellipse cx="56" cy="148" rx="15" ry="74" transform="rotate(-32 56 148)" fill="#0E1B3D"/>
-  <ellipse cx="56" cy="148" rx="10" ry="67" transform="rotate(-32 56 148)" fill="none" stroke="#FFFFFF" stroke-width="2.5"/>
+  <ellipse cx="56" cy="148" rx="15" ry="74" transform="rotate(-32 56 148)" fill="#FFFFFF"/>
+  <ellipse cx="56" cy="148" rx="10" ry="67" transform="rotate(-32 56 148)" fill="none" stroke="#0F2147" stroke-width="2.5"/>
   <!-- Bague -->
-  <rect x="12" y="430" width="108" height="4" fill="#0E1B3D"/>
+  <rect x="12" y="430" width="108" height="4" fill="#FFFFFF"/>
 </svg>
