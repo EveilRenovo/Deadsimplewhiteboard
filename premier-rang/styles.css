@@ -125,13 +125,13 @@ h3 { font-size: 1.5rem; }
 
 .brand { display: flex; align-items: center; gap: 14px; text-decoration: none; }
 .brand-mark { height: 46px; width: auto; }
-.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
+.brand-text { white-space: nowrap; display: flex; flex-direction: column; line-height: 1.1; }
 .brand-name { font-family: var(--serif-sc); font-size: 1.35rem; letter-spacing: .14em; color: var(--navy); margin: 0; }
 .brand-tag { font-size: .62rem; letter-spacing: .38em; color: var(--muted); margin: 4px 0 0; }
 
 .nav { display: flex; align-items: center; gap: 2.1rem; }
 .nav a {
-  text-decoration: none; font-size: .78rem; letter-spacing: .18em; text-transform: uppercase;
+  white-space: nowrap; text-decoration: none; font-size: .78rem; letter-spacing: .18em; text-transform: uppercase;
   font-weight: 400; color: var(--navy); position: relative; padding: 6px 0;
 }
 .nav a:not(.nav-cta)::after {
@@ -198,6 +198,51 @@ h3 { font-size: 1.5rem; }
 .numeral {
   display: block; font-family: var(--serif-sc); font-size: .95rem; letter-spacing: .3em;
   color: var(--rose); margin-bottom: .6rem;
+}
+
+/* ---------- Notre histoire ---------- */
+.story-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 5rem; align-items: start; }
+.story-text { max-width: 36em; min-width: 0; }
+.story-text p { margin: 0 0 1.3rem; color: var(--muted); }
+.story-text strong { color: var(--navy); }
+.dropcap { font-size: 1.12rem; color: var(--navy) !important; }
+.dropcap::first-letter {
+  font-family: var(--serif); float: left; font-size: 4.2rem; line-height: .82;
+  padding: .32rem .7rem 0 0; color: var(--rose);
+}
+.story-sign { font-family: var(--serif); font-style: italic; font-size: 1.3rem; color: var(--navy) !important; margin-top: 2rem !important; }
+
+.lycees { background: var(--navy); color: var(--white); padding: 2.6rem 2.4rem; position: relative; }
+.lycees::before { content: ""; position: absolute; inset: 10px; border: 1px solid var(--line-light); pointer-events: none; }
+.lycees-head { font-size: .72rem; letter-spacing: .3em; text-transform: uppercase; color: rgba(255,255,255,.62); margin: 0 0 1.4rem; }
+.lycees ul { list-style: none; margin: 0; padding: 0; }
+.lycees li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 1.05rem 0; border-top: 1px solid var(--line-light); }
+.lycee-name { font-family: var(--serif-sc); font-size: 1.45rem; letter-spacing: .06em; }
+.lycee-place { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: rgba(255,255,255,.6); white-space: nowrap; }
+
+.founders-head { display: flex; margin: 5rem 0 1.6rem; }
+.founders { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; }
+.founder { background: var(--white); border: 1px solid var(--line); padding: 2.4rem 2.2rem; }
+.founder-role { font-size: .68rem; letter-spacing: .26em; text-transform: uppercase; color: var(--rose); margin: 0 0 .8rem; }
+.founder h3 { font-size: 1.6rem; margin-bottom: 1rem; }
+.founder p:last-child { color: var(--muted); margin: 0; font-size: .97rem; }
+
+.zenith-link {
+  margin-top: 3rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.2rem 2rem;
+  padding-top: 2rem; border-top: 1px solid var(--line);
+}
+.zenith-link p { margin: 0; color: var(--muted); max-width: 44em; }
+.zenith-label { font-family: var(--serif-sc); letter-spacing: .14em; color: var(--navy); margin-right: .6rem; }
+.footer-legal a { color: var(--white); }
+
+@media (max-width: 960px) {
+  .story-grid, .founders { grid-template-columns: 1fr; gap: 2.4rem; }
+  .founders-head { margin-top: 3rem; }
+}
+@media (max-width: 600px) {
+  .lycees { padding: 2rem 1.4rem; }
+  .lycee-name { font-size: 1.2rem; }
+  .founder { padding: 2rem 1.4rem; }
 }
 
 /* ---------- Piliers ---------- */
